@@ -1,6 +1,10 @@
 
 {
-  "items": [
+  "catalog": {
+    "name": "Мій реєстр модулів",
+    "description": "Приватний репозиторій Костянтина"
+  },
+  "modules": [
     {
       "id": "UMT07",
       "name": "Українська Біблія UMT 2007",
@@ -9,7 +13,7 @@
       "url": "https://github.com/aptecarr/MyBible-Dub-modules/raw/main/UMT'07.SQLite3"
     },
     {
-      "id": "UMT07_conn",
+      "id": "UMT07_comm",
       "name": "Коментарі до UMT 2007",
       "language": "uk",
       "type": "commentary",
@@ -30,39 +34,11 @@
       "url": "https://github.com/aptecarr/MyBible-Dub-modules/raw/main/GRM.SQLite3"
     },
     {
-      "id": "GRM_Refs",
-      "name": "Грецькі перехресні посилання",
-      "language": "el",
-      "type": "crossreferences",
-      "url": "https://github.com/aptecarr/MyBible-Dub-modules/raw/main/GRM.crossreferences.SQLite3"
-    },
-    {
-      "id": "GRM_Dict",
-      "name": "Грецький словник",
-      "language": "el",
-      "type": "dictionary",
-      "url": "https://github.com/aptecarr/MyBible-Dub-modules/raw/main/GRM.dictionary.SQLite3"
-    },
-    {
       "id": "KIM_Dict",
       "name": "Словник KIM",
       "language": "uk",
       "type": "dictionary",
       "url": "https://github.com/aptecarr/MyBible-Dub-modules/raw/main/KIM.dictionary.SQLite3"
-    },
-    {
-      "id": "Lexicon_Dict",
-      "name": "Лексикон словник",
-      "language": "uk",
-      "type": "dictionary",
-      "url": "https://github.com/aptecarr/MyBible-Dub-modules/raw/main/%D0%9B%D0%B5%D0%BA%D1%81%D0%B8%D0%BA%D0%BE%D0%BD.dictionary.SQLite3"
-    },
-    {
-      "id": "SBK_Comm",
-      "name": "Коментарі СБК",
-      "language": "uk",
-      "type": "commentary",
-      "url": "https://github.com/aptecarr/MyBible-Dub-modules/raw/main/C%D0%91K.commentaries.SQLite3"
     }
   ]
 }
